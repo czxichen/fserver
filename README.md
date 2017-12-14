@@ -1,11 +1,11 @@
 [![Build Status](https://travis-ci.org/czxichen/work-stacks.svg?branch=master)](https://travis-ci.org/czxichen/work-stacks)
 
 # Install fserver
-* 
+
 ```
 make install
-git clone https://github.com/czxichen/fserver.git**
-make build version=1.0.0**
+git clone https://github.com/czxichen/fserver.git
+make build version=1.0.0
 
 get build install
 go build -i -ldflags "-s -w" github.com/czxichen/fserver/cmd
@@ -22,7 +22,7 @@ fserver -h
   -cfg string
         -cfg fserver.json 指定配置文件,runType为server的时候有效 (default "fserver.json")
   -e    
-    	-e 打印配置样例
+        -e 打印配置样例
   -host string
         -host 指定远程主机地址和端口,runType为client的时候有效
   -path string
