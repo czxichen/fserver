@@ -1,0 +1,9 @@
+language: go
+
+go:
+  - 1.8
+  - master
+script:
+  # build test for supported platforms
+  - GOOS=linux make
+  - GOOS=windows make
