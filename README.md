@@ -1,4 +1,4 @@
-[![Build Status](https://travis-ci.org/czxichen/work-stacks.svg?branch=master)](https://travis-ci.org/czxichen/work-stacks)
+[![Build Status](https://travis-ci.org/czxichen/fserver.svg?branch=master)](https://travis-ci.org/czxichen/fserver)
 
 # Install fserver
 
