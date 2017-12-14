@@ -2,12 +2,15 @@
 
 # Install fserver
 * 
-**git clone https://github.com/czxichen/fserver.git**
-    
-   ** make build version=1.0.0**
+```
+make install
+git clone https://github.com/czxichen/fserver.git**
+make build version=1.0.0**
 
-* 
-**go build -i -ldflags "-s -w" github.com/czxichen/fserver/cmd **
+get build install
+go build -i -ldflags "-s -w" github.com/czxichen/fserver/cmd
+
+```
 ***
 # Usage fserver
 
